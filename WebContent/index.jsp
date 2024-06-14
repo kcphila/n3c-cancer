@@ -2,13 +2,20 @@
 <html>
 
 <jsp:include page="head.jsp">
-	<jsp:param name="page" value="Home"/>
+	<jsp:param name="page" value="Home" />
 </jsp:include>
 
 <body>
 	<div class="container-fluid">
 		<jsp:include page="header.jsp" />
-		<h2>N3C Cancer Homepage</h2>
+		<div class="main-block">
+			<div class="block">
+				<strapi:tenantProfiles ID="4">
+					<h2><strapi:tenantProfilesLabel /></h2>
+					<util:markdown2html><strapi:tenantProfilesDescription /></util:markdown2html>
+				</strapi:tenantProfiles>
+			</div>
+		</div>
 	</div>
 	<jsp:include page="footer.jsp" />
 </body>

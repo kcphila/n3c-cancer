@@ -19,6 +19,7 @@ WebContent/index.jsp -text
 WebContent/nav-bars/dynamic.jsp -text
 WebContent/nav-bars/sample.jsp -text
 WebContent/nav.jsp -text
+WebContent/participants/index.jsp -text
 WebContent/redirects.jsp -text
 WebContent/resources/DataTables/css/dataTables.bootstrap.css -text
 WebContent/resources/DataTables/css/dataTables.bootstrap.min.css -text
